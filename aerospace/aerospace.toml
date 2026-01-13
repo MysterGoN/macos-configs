@@ -210,6 +210,10 @@ if.app-id = 'com.google.Chrome'
 run = 'move-node-to-workspace B'
 
 [[on-window-detected]]
+if.app-id = 'company.thebrowser.Browser'  # Arc
+run = 'move-node-to-workspace B'
+
+[[on-window-detected]]
 if.app-id = 'ru.yandex.desktop.music'
 run = 'move-node-to-workspace M'
 
@@ -220,3 +224,15 @@ run = 'move-node-to-workspace G'
 [[on-window-detected]]
 if.app-id = 'ai.perplexity.mac'
 run = 'move-node-to-workspace P'
+
+[[on-window-detected]]
+if.app-id = 'com.qwen.chat'
+run = 'move-node-to-workspace P'
+
+[[on-window-detected]]
+if.app-id = 'com.jetbrains.pycharm'
+run = 'move-node-to-workspace I'
+
+[[on-window-detected]]
+if.app-id = 'com.jetbrains.datagrip'
+run = 'move-node-to-workspace I'
